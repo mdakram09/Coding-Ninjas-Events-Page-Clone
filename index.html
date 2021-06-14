@@ -101,13 +101,55 @@
           <li><a class="nav-link scrollto" href="#team">Blog</a></li>
 
           <li><a class="nav-link scrollto" href="#contact">My Classroom</a></li>
-          <li><a class="getstarted scrollto" href="#about">Login</a></li>
+          <li><a class="getstarted scrollto" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a></li>
+
+
+
+
+
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+    style="text-align: center;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Log In / Sign Up</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-danger rounded-pill">Submit</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -228,13 +270,13 @@
                     <a href="https://files.codingninjas.in/scolarship-mobile-version-event-10896.jpg"
                       data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i
                         class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                    <a href="https://www.codingninjas.com/events" title="More Details"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
               <div class="portfolio-info">
                 <h4>Coding Ninjas Admission &amp; Scholarship Test June'21</h4>
-                <p>App</p>
+                <p>Webinar</p>
               </div>
             </div>
           </div>
@@ -250,13 +292,13 @@
                   <div class="portfolio-links">
                     <a href="https://files.codingninjas.in/mobile-version-10685.jpg" data-gallery="portfolioGallery"
                       class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                    <a href="https://www.codingninjas.com/events" title="More Details"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
               <div class="portfolio-info">
                 <h4>Ninjas Career Camp June, 2021</h4>
-                <p>Web</p>
+                <p>Coding Event</p>
               </div>
             </div>
           </div>
@@ -272,13 +314,13 @@
                   <div class="portfolio-links">
                     <a href="https://files.codingninjas.in/mobile-430x160-10798.jpg" data-gallery="portfolioGallery"
                       class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                    <a href="https://www.codingninjas.com/events" title="More Details"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
               <div class="portfolio-info">
                 <h4>Amazon Mock Test</h4>
-                <p>App</p>
+                <p>Bootcamp Event</p>
               </div>
             </div>
           </div>
@@ -294,13 +336,13 @@
                   <div class="portfolio-links">
                     <a href="https://files.codingninjas.in/code-war-3-10988.jpg" data-gallery="portfolioGallery"
                       class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                    <a href="https://www.codingninjas.com/events" title="More Details"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
               <div class="portfolio-info">
                 <h4>Code War | First Strike | Second Strike | Third Strike | JUET</h4>
-                <p>Card</p>
+                <p>Workshop</p>
               </div>
             </div>
           </div>
@@ -317,14 +359,14 @@
                   <div class="portfolio-links">
                     <a href="https://files.codingninjas.in/mobile-430x160-66-11029.jpg" data-gallery="portfolioGallery"
                       class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                    <a href="https://www.codingninjas.com/events" title="More Details"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
               <div class="portfolio-info">
                 <h4>Roadmap to Crack Placements &amp; Internships | Bundelkhand Institute Of Engineering and Technology
                 </h4>
-                <p>Web</p>
+                <p>Webinar</p>
               </div>
             </div>
           </div>
@@ -334,19 +376,19 @@
               <div class="card">
                 <img src="https://files.codingninjas.in/430x160-copy-18-10592.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Codeflow Ninjas X Coding Ninjas</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
                   <div class="portfolio-links">
                     <a href="https://files.codingninjas.in/430x160-copy-18-10592.png" data-gallery="portfolioGallery"
                       class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                    <a href="https://www.codingninjas.com/events" title="More Details"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
+                <h4>Codeflow Ninjas X Coding Ninjas</h4>
+                <p>Coding Event</p>
               </div>
             </div>
           </div>
@@ -363,13 +405,13 @@
                   <div class="portfolio-links">
                     <a href="https://files.codingninjas.in/430x160-copy-26-11018.png" data-gallery="portfolioGallery"
                       class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                    <a href="https://www.codingninjas.com/events" title="More Details"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
               <div class="portfolio-info">
                 <h4>Roadmap to Programming and DS &amp; Algo | Thapar Institute of Engineering And Technology</h4>
-                <p>Card</p>
+                <p>Bootcamp Event</p>
               </div>
             </div>
           </div>
@@ -386,13 +428,13 @@
                     <a href="https://files.codingninjas.in/scolarship-mobile-version-event-10896.jpg"
                       data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i
                         class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                    <a href="https://www.codingninjas.com/events" title="More Details"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
               <div class="portfolio-info">
                 <h4>Roadmap for Internship Preparation | Codeflow</h4>
-                <p>Card</p>
+                <p>Coding Event</p>
               </div>
             </div>
           </div>
@@ -408,13 +450,13 @@
                   <div class="portfolio-links">
                     <a href="https://files.codingninjas.in/430x160-copy-25-10992.png" data-gallery="portfolioGallery"
                       class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                    <a href="https://www.codingninjas.com/events" title="More Details"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
               <div class="portfolio-info">
                 <h4>Aptics | National Institute of Technology Patna</h4>
-                <p>Web</p>
+                <p>Workshop</p>
               </div>
             </div>
           </div>
